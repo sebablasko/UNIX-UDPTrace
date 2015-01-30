@@ -26,6 +26,6 @@ make clean
 
 cat /sys/kernel/debug/tracing/trace > "Trace_"$num_sockets"Sockets_"$num_threads"Threads_UNIX.txt"
 
-#> /sys/kernel/debug/tracing/set_ftrace_pid
+> /sys/kernel/debug/tracing/set_ftrace_pid
 
 echo "Done"
